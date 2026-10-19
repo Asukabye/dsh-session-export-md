@@ -1,0 +1,12 @@
+# build output (rebuilt by `prepare`)
+lib/
+*.tsbuildinfo
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# logs / OS noise
+*.log
+.DS_Store
+Thumbs.db

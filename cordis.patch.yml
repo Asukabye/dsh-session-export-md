@@ -1,0 +1,6 @@
+# dsh bundle patch: inserted when a profile lists this package in
+# `dsh.profile.bundles`. The row mounts the host half (export route + service);
+# the browser half is picked up from the package's `dsh.client` declaration.
+- insert:
+    - id: session-export-md
+      name: dsh-session-export-md
